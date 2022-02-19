@@ -1,1 +1,307 @@
-/*  Add your styling here */
+*{
+box-sizing: border-box;
+margin:0%
+}
+body{
+    font-family: Helvetica,sans-serif;
+    letter-spacing: .025em;
+    line-height: 1.2;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(40, 28, 56);
+}
+
+#links-header{
+    color: #fff;
+}
+
+#links-header:hover{
+    color: blueviolet;
+}
+
+.barra-fija{
+    background-color: rgb(40, 28, 56);
+    height: 34.73px;
+    font-size: 12.75px;
+    padding: 10px 0;
+    width: 100%;
+    }
+.barra-items-fija{
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+.link{
+    width: 315px;
+    text-align: center;
+    padding: 0 5px;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .85em;
+    line-height: 1.5;
+
+}   
+
+.barra-movil{
+    background-color: rgb(255, 255, 255);
+    height: 147px;
+    padding: 20px 0;
+}
+
+.barra-items-movil{
+    padding: 0 40px;
+
+}
+.contenido-barra-movil{
+    width: 100%;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-movil{
+    width: 200px;
+    background-image: url(https://st3.depositphotos.com/3986623/12694/v/950/depositphotos_126943076-stock-illustration-vintage-retro-bakery-logo-badge.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+
+.bandera-esp{
+    width: 200px;
+    background-image: url(https://www.nameit.com/on/demandware.static/-/Library-Sites-bestseller-content-library/default/dwa04da25e/nameit/store-assets/dynamic/2021/w52/update1/smart-widget/homepage/bp1_focus-row-15-box4.jpg);
+    background-size: cover ;
+    background-position: center;
+}
+
+
+.items-movil{
+    width: 544px;
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+.ul-list-movil{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.links-movil{
+    display: inline-block;
+    font-size: 15px;
+    padding: 7.5px 15px;
+    font-family: Helvetica,sans-serif;
+    font-weight: 300;
+    letter-spacing: 0em;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.botones-movil{
+    width: 200px;
+}
+
+.seccion1{
+    background-image: url(https://hdwallpaperim.com/wp-content/uploads/2017/08/25/463216-cake-berries-food-chocolate.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.seccion1 .text-banner1 h2{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: .2em;
+    background-color:  rgb(40, 28, 56);
+    
+}
+
+.seccion1 .text-banner2 h3{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: .2em;
+}
+
+.text-banner1{
+    padding-top: 180px;
+}
+
+.text-banner2{
+    padding-top: 120px;
+}
+
+.seccion2{
+    background-color:#fff;
+    height: 197px;
+    margin: 75px 0;
+}
+.contenedor-s2{
+    padding: 0 40px;    
+}
+
+.h2-grid{
+    text-align: center;
+    font-size: 1.31529em;
+    font-family: Helvetica,sans-serif;
+    font-weight: 300;
+    letter-spacing: 1em;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    color: rgb(40, 28, 56);
+}
+.parrafo-grid{
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+       letter-spacing: .1em;
+       color: rgb(40, 28, 56);
+}
+
+p{
+    margin: 0 0 15px;
+    margin-bottom: 25px;
+}
+
+.seccion3{
+    height: 300px;
+    background-color:#fff;
+}
+
+.contenedor-s3{
+    padding: 0 40px;
+}
+
+.contenedor-img{
+    display: flex;
+    
+}
+
+
+.img-1, .img-2, .img-3, .img-4{
+ width: 100%;
+ height:300px ;
+ padding: 40px 0;
+ text-align: center;
+ font-weight: 300;
+ text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .2em;
+}
+.img-cupcake{
+    width: 219px;
+    margin-bottom: 20px;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.smallboxes.boximg1 h4{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #fff;
+    margin-top: 50px;
+    width: 88%;
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallboxes.boximg1 h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    width: 88%;
+    max-width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallboxes.boximg2 h4{
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #fff;
+    margin-top: 50px;
+    width: 88%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.smallboxes.boximg2 h5{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    color: #fff;
+    margin-top: 4px;
+    width: 88%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;}
+
+
+.cajas-dobles1{
+display: flex;
+flex-wrap: wrap;
+}
+
+.smallboxes{
+    height: 624px;
+    flex-grow: 1;
+    margin: 15px 15px;
+    min-width: 350px;
+    flex-basis: 0%;
+    }
+
+    .boximg1{
+        background-image: url(https://www.inbodas.com/blog/wp-content/uploads/sites/3/2017/01/blog-boda-consejos-tarta-01.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    .boximg2{
+        background-image: url(https://cdn0.bodas.com.mx/vendor/0793/3_2/960/jpg/29680878-10156516530844095-68254005-o-5-190793_5_190793.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .links{
+        text-align: center;
+        margin-top: 0.65em;
+        font-size: 21px;
+        line-height: 1.381;
+        font-weight: 400;
+    }
+    .links .link-box1{
+        text-decoration: none;
+        color: #fff;;
+        margin-right: 20px;
+        margin-left: 20px;
+        background-color: rgb(40, 28, 56) ;
+    }
+
+    .links .link-box1:hover{
+        color: blueviolet;
+    }
