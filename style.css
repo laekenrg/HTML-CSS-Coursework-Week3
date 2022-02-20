@@ -24,7 +24,7 @@ a{
 .barra-fija{
     background-color: rgb(40, 28, 56);
     height: 34.73px;
-    font-size: 12.75px;
+    font-size: 7px;
     padding: 10px 0;
     width: 100%;
     }
@@ -33,7 +33,15 @@ a{
     justify-content: center;
     padding: 0 40px;
 }
-.link{
+
+@media screen and (min-width: 700px){
+    .barra-fija{
+    font-size: 12.75px !important;
+    }
+
+    }
+
+    .link{
     width: 315px;
     text-align: center;
     padding: 0 5px;
@@ -72,20 +80,60 @@ a{
 }
 
 .bandera-esp{
-    width: 200px;
-    background-image: url(https://www.nameit.com/on/demandware.static/-/Library-Sites-bestseller-content-library/default/dwa04da25e/nameit/store-assets/dynamic/2021/w52/update1/smart-widget/homepage/bp1_focus-row-15-box4.jpg);
-    background-size: cover ;
-    background-position: center;
+    background-image: none;
 }
 
+.checkbtn{
+    font-size: 40px;
+    line-height: 107px;
+    margin-left: 50px;
+    color:rgb(40, 28, 56) ;
+    cursor: pointer;
+}
+
+.checkbtn:hover{
+    color:rgb(80, 56, 112) ;
+    transition: .9s;
+}
+
+@media screen and (min-width: 426px){
+    .checkbtn{
+        display: none;
+    }
+    }
+
+    #check{
+        display: none;
+    }
+
+
+
+
+@media screen and (min-width: 426px){
+    .bandera-esp{
+        width: 200px;
+        background-image: url(https://www.nameit.com/on/demandware.static/-/Library-Sites-bestseller-content-library/default/dwa04da25e/nameit/store-assets/dynamic/2021/w52/update1/smart-widget/homepage/bp1_focus-row-15-box4.jpg);
+        background-size: cover ;
+        background-position: center;
+    }
+    }
 
 .items-movil{
     width: 544px;
-    display: flex;
+    display: none;
     align-items: center;
     flex: 1 1 auto;
     justify-content: center;
+    visibility: hidden;
 }
+
+@media screen and (min-width: 426px){
+    .items-movil{
+        display: flex;
+        visibility: visible;
+    }
+    }
+
 .ul-list-movil{
     margin: 0 auto;
     padding: 0;
@@ -93,7 +141,7 @@ a{
 
 .links-movil{
     display: inline-block;
-    font-size: 15px;
+    font-size: 12px;
     padding: 7.5px 15px;
     font-family: Helvetica,sans-serif;
     font-weight: 300;
@@ -101,6 +149,11 @@ a{
     line-height: 1.1;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 770px){
+    .links-movil{
+    font-size: 15px ;}
+    }
 
 .botones-movil{
     width: 200px;
@@ -113,12 +166,22 @@ a{
     background-position: center;
 }
 
+@media screen and (min-width: 700px){
+.seccion1 .text-banner1 h2 {
+font-size: 60px !important;}
+}
+
+@media screen and (min-width: 700px){
+    .seccion1 .text-banner2 h3 {
+    font-size: 40px !important;}
+    }
+
 
 
 .seccion1 .text-banner1 h2{
     color: #fff;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: .2em;
     background-color:  rgb(40, 28, 56);
     
@@ -127,7 +190,7 @@ a{
 .seccion1 .text-banner2 h3{
     color: #fff;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     letter-spacing: .2em;
 }
 
@@ -142,15 +205,22 @@ a{
 .seccion2{
     background-color:#fff;
     height: 197px;
-    margin: 75px 0;
+    margin: 75px 0 0 0;
 }
+
+@media screen and (min-width: 700px){
+    .seccion2 {
+        margin: 75px 0;
+} }
+    
+
 .contenedor-s2{
     padding: 0 40px;    
 }
 
 .h2-grid{
     text-align: center;
-    font-size: 1.31529em;
+    font-size: .8em ;
     font-family: Helvetica,sans-serif;
     font-weight: 300;
     letter-spacing: 1em;
@@ -159,8 +229,15 @@ a{
     margin-bottom: 25px;
     color: rgb(40, 28, 56);
 }
+
+@media screen and (min-width: 700px){
+    .h2-grid {
+    font-size: 1.31529em;}
+    }
+
+
 .parrafo-grid{
-    font-size: 1.3em;
+    font-size: .6em;
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
@@ -168,13 +245,18 @@ a{
        color: rgb(40, 28, 56);
 }
 
+@media screen and (min-width: 700px){
+    .parrafo-grid {
+    font-size: 1.3em;}
+    }
+
 p{
     margin: 0 0 15px;
     margin-bottom: 25px;
 }
 
 .seccion3{
-    height: 300px;
+    height: auto;
     background-color:#fff;
 }
 
@@ -183,9 +265,19 @@ p{
 }
 
 .contenedor-img{
-    display: flex;
     
 }
+
+@media screen and (min-width: 700px){
+    .seccion3 {
+        height: 300px;}
+    }
+
+    
+@media screen and (min-width: 700px){
+    .contenedor-img {
+        display: flex;}
+    }
 
 
 .img-1, .img-2, .img-3, .img-4{
@@ -195,8 +287,8 @@ p{
  text-align: center;
  font-weight: 300;
  text-transform: uppercase;
-    font-size: .8em;
-    letter-spacing: .2em;
+font-size: .8em;
+letter-spacing: .2em;
 }
 .img-cupcake{
     width: 219px;
@@ -305,3 +397,5 @@ flex-wrap: wrap;
     .links .link-box1:hover{
         color: blueviolet;
     }
+
+    
